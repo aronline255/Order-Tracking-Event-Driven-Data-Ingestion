@@ -10,8 +10,10 @@ Steps for App Registration in Azure
 3.	Copy the Application (Client) ID and Directory (Tenant) ID
 4.	Go to Certificates & secrets → New client secret → Copy the secret value.
 5.	Go to Azure Storage Account → Access Control (IAM) → Add role assignment
-o	Select Storage Blob Data Contributor
-o	Assign it to the registered App
+  o	Select Storage Blob Data Contributor
+  o	Assign it to the registered App
+
+
 Steps to Configure the Workflow
 1.	Go to Databricks Workspace
 2.	Click Workflows → Create Job
